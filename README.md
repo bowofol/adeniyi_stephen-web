@@ -1,22 +1,33 @@
 # Adeniyi Stephen Bowofoluwa — Portfolio
 
-A lightweight, client-focused personal portfolio built with plain HTML, CSS, and JavaScript.
+A luxury, editorial portfolio built with plain HTML, CSS and JavaScript. There is no build step and there are no runtime dependencies.
 
-## Included pages
+## Files
 
-- `index.html` — main portfolio and project enquiry page
-- `resume.html` — concise professional resume
+- `index.html`: the portfolio (hero, selected work, about, services, process, contact)
+- `resume.html`: a concise resume (print-friendly)
+- `styles.css`: all styles, including the resume page
+- `script.js`: navigation, reveals, active section, process timeline, copy-email
+- `orb.js`: the hero's glass orb, a single WebGL fragment shader with a CSS fallback
+- `assets/work/`: real screenshots of the live projects (WebP)
+- `assets/adeniyi-stephen.jpg`: optimised portrait
+- `favicon.svg`
 
-## Local development
+## Palette
 
-No build step or dependencies are required. Open `index.html` in a browser, or serve this directory with any static-file server.
+Champagne Gold `#D6B56D` · Soft Ivory `#F0F0E8` · Deep Graphite `#171717` · Secondary Dark `#222222` · Muted `#A1A1AA`
+
+## Local preview
+
+Serve the folder with any static server, for example `npx serve .`, and open the URL it prints.
+You can also open `index.html` directly in a browser.
 
 ## Before deployment
 
 - Confirm that `tentaccion99@gmail.com` remains the preferred enquiry address.
-- Add a production site URL to the Open Graph metadata in `index.html` if one is available.
-- Recheck project destinations when new work is published.
+- Add a production URL and an `og:image` to the metadata in `index.html` once a domain exists.
+- Retake the screenshots in `assets/work/` when projects change.
 
 ## Deployment
 
-The project is configured as a static site and can be deployed directly to Vercel. Leave the build command empty and use the repository root as the project root.
+This is a static site configured for Vercel. Leave the build command empty and use the repository root.
